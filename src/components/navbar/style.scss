@@ -1,5 +1,28 @@
 .navbar {
-	height: 100px; 
-	width: 300px;
-	background-color: blue;
+	height: 60px; 
+	width: 100%;
+	color: #fff;
+	vertical-align: middle;
+	padding: 20px 0;
+
+	> .brand {
+		height: 1.2em;
+	}
+
+	> .pages {
+		display: flex;
+		justify-content: space-between;
+
+		> ul {
+
+		    float: left;
+		    position: relative;
+    		display: block;
+		}
+	}
+
+	> .action {
+		display: flex;
+		justify-content: space-between;
+	}
 }

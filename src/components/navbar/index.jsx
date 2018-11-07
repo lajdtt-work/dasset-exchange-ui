@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import './style.scss';
 
 // const mapStateToProps = state => {
 //     return {};
 // };
 
 export default class Navbar extends Component {
-
 
     // static propTypes = {};
 
@@ -47,11 +47,25 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <div>
-                hello
+
+            <div className="container navbar">
+
+                <img className="brand" src='https://dasset.co.nz/img/logo/dasset_logo_w.png' />
+
+                <ul>
+
+                    <li> Products </li>
+
+                    <li> About </li>
+
+                    <li> Fees </li>
+
+                    <li> Contact </li>
+
+                </ul>
+
             </div>
+
         );
     }
-
 }
-
