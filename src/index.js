@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './components/navbar';
+import './app.scss';
 
 const title = 'My React Webpack Babel Setup for Dasset';
 

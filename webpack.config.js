@@ -9,13 +9,10 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader']
       },
-      {
-        test: /\.scss$/,
-        use: [
-          {
-            loader: "sass-loader" // compiles Sass to CSS
-          }
-        ]
+      { 
+        test: /\.scss$/i, 
+        exclude: /node_modules/, 
+        use: ['style-loader', 'css-loader', 'sass-loader'] 
       }
     ]
   },
