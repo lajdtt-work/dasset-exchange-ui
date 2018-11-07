@@ -1,0 +1,22 @@
+.button {
+	color: #3880ff;
+    background-color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+   	padding: 17px 20px 17px;
+   	margin-right: 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+    align-items: center;
+    -ms-flex-align: center;
+	display: inline-flex;
+	display: -ms-inline-flexbox;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.12);
+
+}
+
+.primary {
+	color: white;
+	background-color: #3880ff;
+}

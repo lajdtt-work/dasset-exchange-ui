@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import Button from '../button';
 import './style.scss';
 
 // const mapStateToProps = state => {
@@ -70,7 +71,7 @@ export default class Navbar extends Component {
 
                     <span className="logIn"> Log in </span>
 
-                    <span className="signUp"> Sign Up </span>
+                    <Button children="Sign Up" />
 
                 </ul>
 
