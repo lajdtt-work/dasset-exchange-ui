@@ -62,6 +62,16 @@ export default class Navbar extends Component {
 
                     <li> Contact </li>
 
+                    <li/><li/><li/>
+
+                </ul>
+
+                <ul className="right">
+
+                    <span className="logIn"> Log in </span>
+
+                    <span className="signUp"> Sign Up </span>
+
                 </ul>
 
             </div>

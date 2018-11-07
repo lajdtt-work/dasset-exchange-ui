@@ -19,8 +19,6 @@ ReactDOM.render(
   	
   	<Home />
 
-  	<ExchangeTool />
-
   </div>,
   document.getElementById('app')
 );

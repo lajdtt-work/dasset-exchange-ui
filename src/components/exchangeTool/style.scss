@@ -1,14 +1,160 @@
-.exchangeToolContainer {
+.exchangeTool {
+	flex: auto;
+    margin: 30px 10px;
+	height: 430px;
+	max-height: 600px;
+	width: 460px;
+	background-color: #fff;
+	border: 3px solid #ededed;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.12);
+
+	> p {
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		font-size: 12px;
+		color: #788497;
+		padding-top: 30px;
+	}
+
+	label {
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 12px;
+		color: #788497;
+		margin-top: 12px;
+	}
+
+
+
+	> ul {
+		list-style-type: none;
+    	transition: .2s color;
+    	padding-top: 20px;
+
+    	> li {
+
+			font-size: 13px;
+			font-weight: bold;
+    		color: white;
+		    height: 25px;
+		    line-height: 25px;
+		    width: 55px;
+		    background-color: blue;
+		    border-radius: 12.5px;
+		    display: block;
+		    float: left;
+		    margin: 0 35px;
+		    text-align: center;
+		    box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.12);
+
+    	}
+
+    	.btc {
+			background-image: linear-gradient(0deg,#f7931a 15%,#f9b35e 100%);
+		}
+
+		.eth {
+			background-image: linear-gradient(0deg,#3c3c3d 15%,#767677 100%);
+		}
+
+		.xrp {
+			background-image: linear-gradient(0deg,#006097 15%,#00aae4 100%);
+		}
+
+		.neo {
+			background-image: linear-gradient(0deg,#009900 15%,#00cc00 100%);
+		}
+
+
+	}
+}
+
+.userInputField {
+	margin: auto;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+    box-shadow: none;
+    border-color: rgb(185, 194, 211);
+    display: block;
+    color: rgb(38, 43, 51);
+    line-height: 1.8;
+    font-weight: 400;
+	transition: border 0.2s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(185, 194, 211);
+    border-image: initial;
+    outline: 0px;
+    padding: 7px 14px 10px;
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #cdcdcd;
+    opacity: 1; /* Firefox */
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	    color: #cdcdcd;
+	}
+
+	::-ms-input-placeholder { /* Microsoft Edge */
+	    color: #cdcdcd;
+	}
+}
+
+.formRow {
 	display: flex;
-	justify-content: space-around;
-	margin: 0 20%;
+	justify-content: space-between;
+	margin: 60px;
 }
 
-.demoInput {
+.inputLabel{
 
-	height: 100px;
-	width: 200px;
-	border: 2px solid #4a8bfc;;
-	border-radius: 5px;
-	
 }
+
+.userInputWrap {
+	display: inline-flex;
+}
+
+.submitButton {
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #ededed;
+	border: 1px solid rgb(185, 194, 211);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left: none;
+	line-height: 36px;
+	padding:0 10px;
+}
+
+.selectCurrency {
+	> select {
+		width: 206px;
+		height: 38px;
+		background-color: white;
+	}
+}
+
+.buyNow {
+	    color: #fff;
+		margin: auto;
+    	display: block;
+   		padding: 17px 20px 17px;
+		font-weight: 600;
+		font-size: 13px;
+		text-align: center;
+	    text-transform: uppercase;
+	    letter-spacing: .08em;
+		display: -ms-inline-flexbox;
+	    display: inline-flex;
+	    -ms-flex-align: center;
+	    align-items: center;
+	    background-color: #3880ff;
+		border-radius: 5px;
+	    box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.12);
+	}
+

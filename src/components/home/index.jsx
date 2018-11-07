@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import './style.scss';
+import ExchangeTool from '../exchangeTool';
 
 // const mapStateToProps = state => {
 //     return {};
@@ -24,6 +25,8 @@ export default class Home extends Component {
 	                <p className="disclaimer"> By continuing you agree with all <a href="">terms and conditions </a> </p>
 
 	            </div>
+
+	            <ExchangeTool />
 
             </div>
 
