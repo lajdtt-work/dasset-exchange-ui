@@ -49,29 +49,29 @@ export default class Navbar extends Component {
     render() {
         return (
 
-            <div className="container navbar">
+            <div className={'navbar container'}>
 
-                <img className="brand" src='https://dasset.co.nz/img/logo/dasset_logo_w.png' />
+                <img className={'brand'} src={'https://dasset.co.nz/img/logo/dasset_logo_w.png'} />
 
                 <ul>
 
-                    <li> Products </li>
+                    <li> <a href=""> Products </a> </li>
 
-                    <li> About </li>
+                    <li> <a href=""> About </a> </li>
 
-                    <li> Fees </li>
+                    <li> <a href=""> Fees </a> </li>
 
-                    <li> Contact </li>
+                    <li> <a href=""> Contact </a> </li>
 
                     <li/><li/><li/>
 
                 </ul>
 
-                <ul className="right">
+                <ul className={'right'}>
 
-                    <span className="logIn"> Log in </span>
+                    <span className={'logIn'}> Log in </span>
 
-                    <Button type={'btn-login'} children="Sign Up" />
+                    <Button type={'buttonLogin'} children="Sign Up" />
 
                 </ul>
 

@@ -30,6 +30,16 @@
     		display: block;
     		float: left;
     		margin: 0 35px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: rgba(255,255,255,.8);
+                transition: .2s color;
+            }
     	}
 
     	.right {

@@ -30,14 +30,6 @@ export default class ExchangeTool extends Component {
 
             <div className="exchangeTool">
 
-                {/*
-                <p> Create a new trasaction </p>
-
-                <hr />
-                */}
-
-                <br/>
-
                 <div className="formRow">
                     <label className="inputLabel"> 1. Enter an ammount in NZD </label>
 
@@ -67,7 +59,7 @@ export default class ExchangeTool extends Component {
                     <label className="inputLabel" style={{marginTop:'20px'}}> 3. Submit Your Order </label>
 
                     <span style={{width:'206px'}}> 
-                        <input type="submit" className="button primary" value="Submit Order"/>
+                        <input type="submit" className="button primary exchangeToolButton" value="Submit Order"/>
                     </span>
 
                 </div>
