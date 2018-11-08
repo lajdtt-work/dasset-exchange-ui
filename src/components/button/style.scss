@@ -20,3 +20,13 @@
 	color: white;
 	background-color: #3880ff;
 }
+
+.button:hover {
+	box-shadow: 0 7px 14px rgba(0,0,0,.12), 0 3px 6px rgba(0,0,0,.08);
+	transition: all .3s ease;
+}
+
+
+.btn-login {
+    max-height: 10px;
+}

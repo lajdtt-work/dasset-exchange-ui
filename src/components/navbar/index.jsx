@@ -71,7 +71,7 @@ export default class Navbar extends Component {
 
                     <span className="logIn"> Log in </span>
 
-                    <Button children="Sign Up" />
+                    <Button type={'btn-login'} children="Sign Up" />
 
                 </ul>
 

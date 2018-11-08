@@ -12,6 +12,7 @@
 		height: 1.2em;
 		position: relative;
     	display: block;
+        margin-top: 21px;
 	}
 	
 	> ul {
@@ -22,6 +23,7 @@
     	margin: 5px 0;
     	font-size: 13px;
     	transition: .2s color;
+        line-height: 60px;
 
     	li {
 
@@ -36,7 +38,6 @@
 
     	.logIn {
     		margin-right: 10px;
-    	}
-    	
+    	}	
    	}
 }
