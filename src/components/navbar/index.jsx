@@ -69,7 +69,7 @@ export default class Navbar extends Component {
 
                 <ul className={'right'}>
 
-                    <span className={'logIn'}> Log in </span>
+                    <span style={{ marginRight: '35px' }} className={'logIn'}> Log in </span>
 
                     <Button type={'buttonLogin'} children="Sign Up" />
 

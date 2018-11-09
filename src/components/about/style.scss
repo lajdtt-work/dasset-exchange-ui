@@ -1,0 +1,50 @@
+.about {
+	width: 100%;
+	background-color: #fff;
+	padding: 140px 0;
+
+	> .container {
+
+		margin: auto;
+	    max-width: 1170px;
+	    display: flex;
+
+
+		.left {
+			width: 585px;
+			margin-right: 20px;
+
+			> h1 {
+				font-weight: 600;
+				margin: 0;
+			}
+
+			> p {
+				color: #7483a2;
+				font-weight: 300;
+				margin: 20px 0;
+			}
+
+			> ul {
+				font-weight: 300;
+				padding: 17px;
+
+				> li {
+					line-height: 30px;
+				}
+			}
+		}
+
+		.right {
+			width: 585px;
+
+			> img {
+				max-width: 420px;
+			    margin-left: auto;
+			    display: block;
+			    margin-right: auto;
+
+			}
+		}
+	}
+}

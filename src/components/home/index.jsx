@@ -13,7 +13,7 @@ export default class Home extends Component {
     render() {
         return (
 
-            <div className="container">
+            <div className="home container">
 
             	<div className="landingText">
 	                
