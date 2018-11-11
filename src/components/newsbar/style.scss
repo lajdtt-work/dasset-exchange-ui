@@ -24,6 +24,12 @@
     			border-radius: 11px;
     		}
 
+            > span:hover {
+                background-color: #ec7a1e;
+                box-shadow: 0 1px 2px 0 rgba(0,20,56,.06);
+                transition: .2s background-color,.2s box-shadow;
+            }
+
     	}
     }
 }

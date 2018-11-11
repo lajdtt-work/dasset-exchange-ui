@@ -1,64 +1,54 @@
 .features {
 
 	background-color: #fcfcfc;
-	border-top: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
+	border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
 	padding: 70px;
+    justify-content: center;
 
-	> p {
+    > .container {
+        
+        > #securitySvg {
 
-		display: block;
-		text-align: -webkit-center;
-		color: #1e1e1e;
-		font-weight: 300;
-		margin-bottom: 30px;
+            svg {
+                min-width: 200px;
+                min-height: 200px;
+            }
 
-	}
+            min-width: 100px; 
+            height: auto;
+            position: relative;
+            margin: 0 100px;
+        }
 
-	ul {
+        > #securityDescription {
 
-        width: 100%;
-		list-style: none;
-	    position: relative;
-    	display: block;
-    	margin: 5px 0;
-    	font-size: 13px;
-    	transition: .2s color;
-	    display: inline-flex;
-	    justify-content: space-around;
-	    padding: 0;
+            margin: auto;
 
-    	li {
+            p {
+                    text-align: left;
+                    font-size: 24px;
+                    letter-spacing: -.01em;
+                    font-weight: 700;
+                    margin-top: 0;
+                }
 
-    		width: -webkit-fill-available;
-    		display: block;
-    		text-align: center;
+            ul {
 
-    		> img {
-    			height: 15px;
-    			margin: auto;
-    			display:block;
-    		}
+                padding: 0 20px;
 
-    		p {
-                text-align: left;
-    			font-size: 24px;
-                letter-spacing: -.01em;
-                font-weight: 700;
-                margin-top: 0;
-    		}
+                li {
+                    font-size: 16px;
+                    text-align: left;
+                    color: #788497;
+                    text-align: left;
+                    font-weight: 300;
+                    font-style:normal;
+                    letter-spacing: -.01em;
+                    line-height: 30px;
 
-    		.description {
-                font-size: 16px;
-                text-align: left;
-    			color: #788497;
-                text-align: left;
-    			font-weight: 300;
-    			font-style:normal;
-                letter-spacing: -.01em;
-
-    		}
-
-    	}
+                }
+            }
+        }
     }
 }

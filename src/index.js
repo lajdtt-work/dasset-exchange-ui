@@ -46,7 +46,7 @@ class App extends React.Component {
     return (
       	<div>
 
-		    <div style={this.state.isTop ? { display: 'none' } : { display: 'block', width: '100%', position: 'fixed' } }>
+		    <div style={this.state.isTop ? { display: 'none' } : { display: 'block', width: '100%', position: 'fixed', zIndex: 999 }} >
 		        <FixedNavbar />
 		    </div>
 
@@ -60,7 +60,7 @@ class App extends React.Component {
 
 		  	<Features />
 
-		  	<Partners />
+        <Partners />
 
 		  	<Footer />
 
